@@ -18,6 +18,7 @@ I Generate authentication In AuthController And Make Authorize ProductPolicy
 I Generate Api For Authentication And Product
 
 DB_CONNECTION=mysql
+FILESYSTEM_DISK=public
 
 After downloading
 You Can Use php artisan db:seed To publish Faker Data
