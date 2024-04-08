@@ -17,6 +17,8 @@ I Generate authentication In AuthController And Make Authorize ProductPolicy
 
 I Generate Api For Authentication And Product
 
+DB_CONNECTION=mysql
+
 After downloading
 You Can Use php artisan db:seed To publish Faker Data
 And Auth By m@m.com This Leader in Project
