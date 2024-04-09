@@ -1,0 +1,69 @@
+{
+  "resources/assets/fonts/LineIcons.eot": {
+    "file": "assets/LineIcons-BJUrqD8W.eot",
+    "src": "resources/assets/fonts/LineIcons.eot"
+  },
+  "resources/assets/fonts/LineIcons.svg": {
+    "file": "assets/LineIcons-BMXH4wJW.svg",
+    "src": "resources/assets/fonts/LineIcons.svg"
+  },
+  "resources/assets/fonts/LineIcons.ttf": {
+    "file": "assets/LineIcons-Cqb3QtOe.ttf",
+    "src": "resources/assets/fonts/LineIcons.ttf"
+  },
+  "resources/assets/fonts/LineIcons.woff": {
+    "file": "assets/LineIcons-DrihXZZM.woff",
+    "src": "resources/assets/fonts/LineIcons.woff"
+  },
+  "resources/assets/fonts/LineIcons.woff2": {
+    "file": "assets/LineIcons-BZgAh_1U.woff2",
+    "src": "resources/assets/fonts/LineIcons.woff2"
+  },
+  "resources/assets/fonts/boxicons.eot": {
+    "file": "assets/boxicons-CASQlNmZ.eot",
+    "src": "resources/assets/fonts/boxicons.eot"
+  },
+  "resources/assets/fonts/boxicons.svg": {
+    "file": "assets/boxicons-Cv8c-MCu.svg",
+    "src": "resources/assets/fonts/boxicons.svg"
+  },
+  "resources/assets/fonts/boxicons.ttf": {
+    "file": "assets/boxicons-BDxpaK7B.ttf",
+    "src": "resources/assets/fonts/boxicons.ttf"
+  },
+  "resources/assets/fonts/boxicons.woff": {
+    "file": "assets/boxicons-BRXHbA3Z.woff",
+    "src": "resources/assets/fonts/boxicons.woff"
+  },
+  "resources/assets/fonts/boxicons.woff2": {
+    "file": "assets/boxicons-D-9kh4JX.woff2",
+    "src": "resources/assets/fonts/boxicons.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BZCik-9L.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-QJV2XSRb.css"
+    ],
+    "assets": [
+      "assets/boxicons-CASQlNmZ.eot",
+      "assets/boxicons-D-9kh4JX.woff2",
+      "assets/boxicons-BRXHbA3Z.woff",
+      "assets/boxicons-BDxpaK7B.ttf",
+      "assets/boxicons-Cv8c-MCu.svg",
+      "assets/LineIcons-BJUrqD8W.eot",
+      "assets/LineIcons-BZgAh_1U.woff2",
+      "assets/LineIcons-DrihXZZM.woff",
+      "assets/LineIcons-Cqb3QtOe.ttf",
+      "assets/LineIcons-BMXH4wJW.svg"
+    ]
+  }
+}
