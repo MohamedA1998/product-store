@@ -24,11 +24,17 @@ class ProductApiController extends Controller
 
     public function index()
     {
-        $products = request()->user()->products;
+        $products = request()->user()->products();
 
         if (request()->user()->role === User::LEADER) {
-            $products = Product::with('oldestImage')->latest()->get();
+            $products = Product::query();
         }
+
+        $products = cache()->remember(
+            'user-' . request()->user()->id,
+            60 * 60 * 3,
+            fn () => $products->with('oldestImage')->latest()->get()
+        );
 
         return ProductResource::collection(
             $products

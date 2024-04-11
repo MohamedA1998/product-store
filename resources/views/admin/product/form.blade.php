@@ -80,7 +80,7 @@
 
                             @if (request()->path() !== 'product/create')
                                 @foreach ($product->images->except($product->oldestImage->id) as $image)
-                                    <img src="{{ $image->url() }}" alt="Admin" class="bg-primary mx-1" width="60">
+                                    <img src="{{ $image->url() }}" alt="Admin" class="bg-primary mx-1 mb-2" width="60">
                                 @endforeach
                             @endif
                         </div>
