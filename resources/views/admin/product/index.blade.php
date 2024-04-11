@@ -56,16 +56,13 @@
                                         <td>{{ number_format($product->price) }}</td>
                                         <td>{{ $product->quantity }}</td>
                                         <td>
-                                            @can('update', $product)
-                                                <a href="{{ route('admin.product.edit' , $product) }}" class="btn btn-outline-warning px-3 radius-30">Edit</a>
-                                            @endcan
-                                            @can('delete', $product)
-                                                <a onclick="event.preventDefault();document.getElementById('deleteCategorie{{ $product->id }}').submit()" href="#" class="btn btn-outline-danger px-3 radius-30" id="delete">Delete</a>
-                                                <form action="{{ route('admin.product.destroy' , $product) }}" method="post" id="deleteCategorie{{ $product->id }}">
-                                                    @csrf
-                                                    @method('DELETE')
-                                                </form>
-                                            @endcan
+                                            <a href="{{ route('admin.product.edit' , $product) }}" class="btn btn-outline-warning px-3 radius-30">Edit</a>
+                                            
+                                            <a onclick="event.preventDefault();document.getElementById('deleteCategorie{{ $product->id }}').submit()" href="#" class="btn btn-outline-danger px-3 radius-30" id="delete">Delete</a>
+                                            <form action="{{ route('admin.product.destroy' , $product) }}" method="post" id="deleteCategorie{{ $product->id }}">
+                                                @csrf
+                                                @method('DELETE')
+                                            </form>
                                         </td>
                                     </tr>           
                                 @endforeach                   
