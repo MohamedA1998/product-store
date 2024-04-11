@@ -10,7 +10,7 @@ class ProductObserver
 
     public function created(Product $product): void
     {
-        Cache::forget('user-' . request()->user()->id);
+        Cache::forget('user-' . request()->user()?->id);
     }
 
 
